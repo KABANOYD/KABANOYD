@@ -1,0 +1,107 @@
+@import "../config"
+
+.header
+  position: absolute
+  top: 0
+  z-index: 999
+  width: 100%
+  transition: 0.3s
+
+  .header_wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: 122px
+    padding: 0 64px
+
+
+  .header_left
+    padding-left: 15px
+    padding-right: 15px
+    flex-basis: 20%
+    justify-content: flex-start
+    display: flex
+
+  .logo
+    box-sizing: border-box
+
+    a
+      display: inline-block
+      color: #ffffff
+      text-decoration: none
+      outline: none
+
+      img
+        transition: 0.3s
+        border: 0
+        vertical-align: middle
+        max-width: 100%
+        height: auto
+
+  .menu_nav
+    display: block
+    box-sizing: border-box
+
+  .header_center
+    flex-basis: 100%
+    justify-content: flex-end
+    display: flex
+    align-items: center
+
+  .primary_menu
+    display: flex
+    list-style: none
+    flex-wrap: wrap
+    margin: -24px
+    padding: 0
+
+    li
+      position: relative
+      margin: 10px 14px
+      transition: 0.3s
+      font-size: 18px
+      line-height: 1.50
+      color: #878e99
+      display: list-item
+      text-align: -webkit-match-parent
+
+      a
+        opacity: 1
+        color: #ffffff
+        position: relative
+        transition: 0.4s
+        font-size: 13px
+        font-weight: 400
+        text-transform: uppercase
+        text-decoration: none
+
+        &:hover
+          text-decoration: underline
+
+
+  .header_right
+    margin-left: 30px
+    justify-content: flex-end
+    display: flex
+    margin-right: -18px
+    box-sizing: border-box
+
+    a
+      &.right_btn
+        border-radius: 6px
+        background: linear-gradient(145deg, #1e2024, #23272b)
+        box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e
+        transition: 0.4s
+        position: relative
+        z-index: 2
+        font-size: 14px
+        font-weight: 500
+        border: 0 none
+        display: inline-block
+        padding: 15px 35px
+        list-style: none
+        color: #ff014f
+        text-transform: uppercase
+        text-decoration: none
+
+
