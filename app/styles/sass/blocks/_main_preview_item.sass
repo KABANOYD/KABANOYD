@@ -1,0 +1,69 @@
+@import "../config"
+.main_preview_item
+	width: 100%
+	border-radius: 10px
+	background: linear-gradient(145deg, #1e2024, #23272b)
+	box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e
+	position: relative
+	height: auto
+	top: 0
+	left: 0
+	padding: 30px
+	
+	.thumbnail
+		width: 100%
+		height: 250px
+		position: relative
+		margin-bottom: 18px
+		display: block
+		overflow: hidden
+		border-radius: 10px
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center
+		img
+			width: 100%
+			height: auto
+
+	
+	.content
+		display: flex
+		flex-wrap: wrap
+		flex-direction: column
+		
+		.perks
+			position: relative
+			display: flex
+			justify-content: space-between
+			flex-wrap: wrap
+			width: 100%
+			padding-right: 50px
+			height: 24px
+			margin-bottom: 10px
+			
+			a
+				color: #ff014f
+				font-weight: 500
+				font-size: 12px
+				letter-spacing: 1px
+				text-transform: uppercase
+				display: flex
+				align-items: center
+				
+			.meta
+				position: absolute
+				top: 0
+				right: 0
+				span
+					color: #c4cfde
+					font-weight: 500
+					font-size: 13px
+		
+		.txt_arrow
+			display: block
+			color: #c4cfde
+			font-weight: 600
+			font-size: 23px
+			line-height: 34px
+			&:hover
+				color: #ff014f
